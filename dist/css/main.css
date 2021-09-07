@@ -1,3 +1,8 @@
+#header-home {
+  background: url("../img/UP_Background.webp") no-repeat center right/cover;
+  height: 105vh;
+  color: #fff;
+}
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -147,7 +152,7 @@ input[class^="btn-"]:hover {
 .item:hover .item-image {
   transform: scale(1.2);
 }
-.item:hover .item-text {
+.item:hover .item-text:hover {
   opacity: 1;
   transform: translateY(0);
 }
@@ -274,11 +279,6 @@ img {
   bottom: 7px;
 }
 
-#header-home {
-  background: url("../img/UP_Background.webp") no-repeat center right/cover;
-  height: 105vh;
-  color: #fff;
-}
 #header-home .header-content {
   text-align: center;
   padding-top: 20%;
