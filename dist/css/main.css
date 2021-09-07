@@ -275,7 +275,7 @@ img {
 }
 
 #header-home {
-  background: url("../img/UP_Background.png") no-repeat center right/cover;
+  background: url("../img/UP_Background.webp") no-repeat center right/cover;
   height: 105vh;
   color: #fff;
 }
